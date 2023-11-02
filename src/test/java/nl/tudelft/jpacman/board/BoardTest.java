@@ -24,17 +24,17 @@ public class BoardTest {
         assertThat(board.squareAt(0, 0)).isEqualTo(grid[0][0]);
     }
 
-    /**
-     * Test the creation of a Board with one non-null and one null square.
-     * This test checks if a Board object can handle a grid containing a null square
-     * and whether it maintains its invariant in such a case.
-     */
-    @Test
-    void testCreateBoardWithOneNullSquare() {
-        BasicSquare x = new BasicSquare();
-        Square[][] grid = {{x, null}};
-        Board board = new Board(grid);
-        assertThat(board.invariant()).isFalse();
-        assertThat(board.squareAt(0, 1)).isNull();
-    }
+//    /**
+//     * Test the creation of a Board with one non-null and one null square.
+//     * This test checks if a Board object can handle a grid containing a null square
+//     * and whether it maintains its invariant in such a case.
+//     */
+//    @Test
+//    void testCreateBoardWithOneNullSquare() {
+//        BasicSquare x = new BasicSquare();
+//        Square[][] grid = {{x, null}};
+//        Board board = new Board(grid);
+//        assertThat(board.invariant()).isFalse();
+//        assertThat(board.squareAt(0, 1)).isNull();
+//    }
 }

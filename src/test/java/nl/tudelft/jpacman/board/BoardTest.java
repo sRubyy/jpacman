@@ -4,6 +4,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * Unit tests for the {@link Board} class.
+ * This class contains test methods to ensure the correct behavior of the Board class.
+ */
 public class BoardTest {
 
     /**

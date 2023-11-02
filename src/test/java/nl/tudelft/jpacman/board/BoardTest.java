@@ -4,11 +4,16 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * Unit tests for the {@link Board} class.
+ * This class contains test methods to ensure the correct behavior of the Board class.
+ */
 public class BoardTest {
 
     /**
      * Test the creation of a Board with a single non-null square.
-     * This test ensures that a Board object is created correctly and that it maintains its invariant.
+     * This test ensures that a Board object is created correctly
+     * and that it maintains its invariant.
      */
     @Test
     void testCreateBoard() {
